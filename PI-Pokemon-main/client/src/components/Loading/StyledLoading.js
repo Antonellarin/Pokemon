@@ -13,7 +13,7 @@ export const LoadingContainer = styled.div`
 export const LoadingBar = styled.div`
   width: ${(props) => props.width}%;
   height: 15px;
-  background-color: yellow;
+  background-color: red;
   border: 1px black solid;
   border-radius: 50px;
 `;

@@ -9,8 +9,8 @@ import {
   ArrowContainer,
 } from "./StyledPagination";
 import CardsContainer from "../CardsContainer/CardsContainer";
-import img from "../../Assets/Arrow/arrowRight.png";
-import img1 from "../../Assets/Arrow/arrowLeft.png";
+import img from "../../Assets/Arrow/poke2.png";
+import img1 from "../../Assets/Arrow/poke1.png";
 import SearchBar from "../Seachbar/SearchBar";
 import { useEffect } from "react";
 import { getPokemons } from "../../Redux/Actions/Actions";

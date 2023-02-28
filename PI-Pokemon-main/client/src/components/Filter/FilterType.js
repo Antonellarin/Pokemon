@@ -76,10 +76,10 @@ function FilterType() {
 
       <div>
         <H3>Order By </H3>
-        <Button onClick={onClickOrd} value="ascendent">
+        <Button onClick={onClickOrd} value="descendent">
           Z-A
         </Button>
-        <Button onClick={onClickOrd} value="descendent">
+        <Button onClick={onClickOrd} value="ascendent">
           A-Z
         </Button>
         <Button onClick={OrderPokemonsAtt} value="ascendent">

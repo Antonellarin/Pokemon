@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import bg from "../../Assets/landingbg.jpg";
+import bg from "../../Assets/pikadurmiendo.jpg";
 
 export const FormStyle = styled.form`
   background-image: url(${bg});
@@ -38,7 +38,7 @@ export const Container2 = styled.div`
 export const Input = styled.input`
   font-family: "8bit";
   align-items: flex-start;
-  color: yellow;
+  color: white;
   background-color: transparent;
   margin-top: 20px;
   & {
@@ -49,7 +49,7 @@ export const Input = styled.input`
 
 export const Label = styled.label`
   font-family: "8bit";
-  color: yellow;
+  color: white;
   font-size: small;
   margin-top: auto;
   text-shadow: 2px 2px 2px black;
@@ -61,7 +61,7 @@ export const IMG = styled.img`
 `;
 
 export const Button = styled.button`
-  background-color: yellow;
+  background-color: white;
   padding: 15px;
   margin-top: 20px;
   border-radius: 50px;
@@ -80,7 +80,7 @@ export const Button = styled.button`
 `;
 
 export const Select = styled.select`
-  background-color: yellow;
+  background-color: white;
   border-radius: 50px;
   color: red;
   margin-top: 20px;

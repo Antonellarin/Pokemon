@@ -56,7 +56,7 @@ export const Button = styled.button`
   margin-left: 5px;
   font-family: "Press Start 2P";
   font-size: large;
-  color: yellow;
+  color: white;
   text-shadow: 2px 2px 1px red;
   background-color: transparent;
 

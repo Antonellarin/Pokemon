@@ -21,18 +21,18 @@ export const DivNavBar = styled.div`
   width: 600px;
   height: 50px;
   font-family: "Press Start 2P";
-  background-color: #fa0032;
-  text-shadow: 4px 4px 6px #252525;
-  box-shadow: 6px 6px 1px #252525;
+  background-color: yellow;
+  text-shadow: 8px 8px 10px #252525;
+  box-shadow: 8px 8px 1px #252525;
   opacity: 90%;
   left: 50px;
 `;
 
 export const HomeAbout = styled.div`
   z-index: 1000;
-  color: yellow;
-  margin-right: 20px;
-  margin-left: 20px;
+  color: red;
+  margin-right: 100px;
+  margin-left: 100px;
   border: none;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
@@ -45,8 +45,8 @@ export const HomeAbout = styled.div`
 export const LogoPoke = styled.img`
   position: absolute;
   z-index: 100;
-  height: 140px;
-  width: 370px;
+  height: 150px;
+  width: 500px;
   border-radius: 50px;
   right: -1200px;
 `;

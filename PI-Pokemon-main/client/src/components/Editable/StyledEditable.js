@@ -66,8 +66,6 @@ export const ButDel = styled.button`
   margin-top: 20px;
   border-radius: 50px;
   border: none;
-  /* box-shadow: 5px 5px 2px #252525;
-  text-shadow: 4px 4px 10px #252525; */
   font-family: "8bit";
   font-size: smaller;
   color: black;
@@ -89,8 +87,6 @@ export const ButEdit = styled.button`
   margin-top: 20px;
   border-radius: 50px;
   border: none;
-  /* box-shadow: 5px 5px 2px #252525;
-  text-shadow: 4px 4px 10px #252525; */
   font-family: "8bit";
   font-size: smaller;
   color: black;
@@ -101,7 +97,6 @@ export const ButEdit = styled.button`
     cursor: pointer;
   }
   :active {
-    /* box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24); */
     transform: translateY(4px);
   }
 `;

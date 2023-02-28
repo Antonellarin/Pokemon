@@ -21,7 +21,6 @@ export const Button = styled.button`
   opacity: 90%;
   background-color: transparent;
   font-family: "Press Start 2P";
-  /* background-color: #fa0032; */
   padding: 10px 20px;
   font-size: 10px;
   font-weight: 700;

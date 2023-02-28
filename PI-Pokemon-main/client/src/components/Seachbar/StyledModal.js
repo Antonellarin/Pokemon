@@ -66,7 +66,7 @@ export const FilterModalDiv = styled.div`
   z-index: 1000;
   transition: all 0.5s ease-in-out;
   display: ${({ active }) => (active ? "block" : "none")};
-  background-color: yellow;
+  background-color: white;
   position: absolute;
   top: -4px;
   right: 0px;

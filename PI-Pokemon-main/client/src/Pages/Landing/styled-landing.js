@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import img from "../../Assets/landingbg.jpg";
+import img from "../../Assets/pikapika.png";
 import pika from "../../Assets/pikachu.png";
 
 export const Container = styled.div`
@@ -24,7 +24,7 @@ export const Pikachu = styled.div`
 `;
 
 export const Logo = styled.img`
-  position: relative;
+  position: static;
   min-width: 350px;
   width: 50%;
   top: 10%;
