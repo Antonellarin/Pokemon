@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import img from "../../Assets/detailbg-01.png";
+import img from "../../Assets/21784.jpg";
 
 export const DetailBackground = styled.div`
-  background-color: #fa0032;
+  background-color: orange;
   display: flex;
   position: relative;
   justify-content: center;
@@ -12,7 +12,7 @@ export const DetailBackground = styled.div`
 `;
 
 export const DetailContainer = styled.div`
-  background-color: #fa0032;
+  background-color: orange;
   display: flex;
   height: 100%;
   width: 100%;
@@ -48,16 +48,16 @@ export const H3 = styled.p`
 `;
 
 export const PokedexLightBlue = styled.div`
-  display: flex;
+  display: none;
   position: absolute;
   height: 50px;
   width: 50px;
   right: 64%;
   top: 19%;
   border-radius: 50%;
-  /* border: 5px yellow solid; */
+ 
   & {
-    opacity: 1;
+   opacity: 1;
     animation: flickerI 2s linear reverse infinite;
   }
   &::after {

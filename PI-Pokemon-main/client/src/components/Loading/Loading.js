@@ -1,5 +1,5 @@
 
-import { GIF, LoadingContainer, LoadingBar } from "./StyledLoading";
+import { LoadingContainer, LoadingBar } from "./StyledLoading";
 import { useState, useEffect } from "react";
 
 const Loading = () => {

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const GIF = styled.img``;
+
 
 export const LoadingContainer = styled.div`
   position: absolute;

@@ -12,9 +12,9 @@ import { StyledImg } from "../CardsContainer/StyledCardContainer";
 export function Card(props) {
   const Navigate = useNavigate();
   
-  function handleClick() {
-    Navigate.push(`/detail/${props.id}`, { state: { pokemon: props } });
-  }
+  const handleClick = () => {
+    Navigate(`/detail/${props.id}`,{ state: { pokemon: props }});
+ }
 
   return (
     <CardDiv type={props.type[0]}>
